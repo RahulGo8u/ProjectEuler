@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Common.Helper
 {
@@ -30,6 +31,14 @@ namespace Common.Helper
                 }
             }
             return lst;
+        }
+        public static bool IsPalindrome(int num)
+        {
+            string a = num.ToString();
+            char[] aCharAry = a.ToCharArray();
+            Array.Reverse(aCharAry);
+            string b = new(aCharAry);
+            return a.Equals(b);
         }
     }
 }
