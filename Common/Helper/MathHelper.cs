@@ -13,5 +13,23 @@ namespace Common.Helper
             }
             return sum;
         }
+        public static List<long> GetPrimeFactors(long n)
+        {
+            List<long> lst = new();
+            int i = 2;
+            while (n > 1)
+            {
+                if (n % i == 0)
+                {
+                    n /= i;
+                    lst.Add(i);
+                }
+                else
+                {
+                    i++;
+                }
+            }
+            return lst;
+        }
     }
 }

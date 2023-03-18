@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ProjectEulerSolutions.Problem
+namespace ProjectEulerSolutions.Solutions
 {
     static class Solution1
     {

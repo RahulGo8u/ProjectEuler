@@ -1,5 +1,4 @@
-﻿using ProjectEulerSolutions.Problem;
-using System;
+﻿using ProjectEulerSolutions.Solutions;
 
 namespace ProjectEulerSolutions
 {
@@ -7,7 +6,8 @@ namespace ProjectEulerSolutions
     {
         static void Main(string[] args)
         {
-            Solution2.Solve();
+            Solution3.Solve();
+            //Solution2.Solve();
             //Solution1.Solve();
         }
     }
